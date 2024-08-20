@@ -6,7 +6,9 @@
 	let winemoji = '🍷';
 	let beermoji = '🍺';
 
-	// import storytext from './static/storytext/A/A1.md';
+	import markdownit from 'markdown-it';
+	const md = markdownit();
+	import storytext from '$lib/storytext/A/A1.md?raw';
 
 </script>
 
@@ -18,15 +20,15 @@
 
 		<div class="card p-4 w-3/4 h-full mb-5 lg:m-3">
 
-			<header class="text-2xl card-header font-semibold my-2">
-				The story begins
+			<header class="text-2xl card-header font-semibold mb-2">
+				Some Header here or somthin
 			</header>
 
 			<hr>
 
 			<section class="p-4 flex justify-center">
-				<article class="w-full h-32 text-center">
-					<p>This is where the story goes</p>
+				<article class="w-full h-32 mb-4">
+					{@html md.render(storytext)}
 				</article>
 			</section>
 
