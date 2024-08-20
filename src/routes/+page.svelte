@@ -1,0 +1,59 @@
+<script>
+
+	let drunklevel = 0;
+	let boozemoji = '🥃';
+	let cocktailmoji = '🍹';
+	let winemoji = '🍷';
+	let beermoji = '🍺';
+
+	// import storytext from './static/storytext/A/A1.md';
+
+</script>
+
+<div class="h-screen flex flex-col items-center lg:space-y-4 xl:space-y-8">
+
+	<h1 class="h1 my-5 lg:my-10 font-mono">SPOOKY CHOOSE YOUR OWN</h1>
+
+	<div class="flex flex-col lg:flex-row justify-center lg:justify-between items-center w-5/6 lg:w-full md:h-auto">
+
+		<div class="card p-4 w-3/4 h-full mb-5 lg:m-3">
+
+			<header class="text-2xl card-header font-semibold my-2">
+				The story begins
+			</header>
+
+			<hr>
+
+			<section class="p-4 flex justify-center">
+				<article class="w-full h-32 text-center">
+					<p>This is where the story goes</p>
+				</article>
+			</section>
+
+			<hr>
+
+			<div class="w-full flex justify-center">
+				<button type="button" class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" on:click={console.log('hello')}>
+					<span class="font-semibold">Lets Begin</span>
+				</button>
+			</div>
+
+			<!-- <div class="w-full flex justify-center">
+				<button type="button" class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" on:click={console.log('hello')}>
+					<span class="font-semibold">Generate</span>
+				</button>
+			</div> -->
+		</div>
+
+		<div class="card p-4 w-1/4 h-full mb-5 lg:m-3">
+			<header class="text-2xl card-header font-semibold my-2 text-center">
+				Drunk Level
+				<p class="mt-1 mb-2 text-xs font-extralight">(this would be hidden but is here for dev)</p>
+			</header>
+			<hr>
+
+			<p class="mt-4 mb-2 text-8xl font-bold text-center">{drunklevel}</p>
+			
+		</div>
+	</div>
+</div>
