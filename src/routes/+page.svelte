@@ -35,16 +35,9 @@
 			<hr>
 
 			<div class="w-full flex justify-center">
-				<button type="button" class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" on:click={console.log('hello')}>
-					<span class="font-semibold">Lets Begin</span>
-				</button>
+				<a class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" href="/B_level/B1">Lets Begin</a>
 			</div>
 
-			<!-- <div class="w-full flex justify-center">
-				<button type="button" class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" on:click={console.log('hello')}>
-					<span class="font-semibold">Generate</span>
-				</button>
-			</div> -->
 		</div>
 
 		<div class="card p-4 w-1/4 h-full mb-5 lg:m-3">
