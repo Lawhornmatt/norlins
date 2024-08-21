@@ -24,12 +24,12 @@
 
 <div class="card p-4 w-3/4 h-full mb-5 lg:m-3">
 	<header class="text-2xl card-header font-semibold mb-2">
-		{data.id}
+		{data.title}
 	</header>
 	<hr>
 	<section class="p-4 flex justify-center">
 		<article class="w-full h-32 mb-4">
-			{@html md.render(data.content)}
+			<!-- {@html md.render(data.content)} -->
 		</article>
 	</section>
 	<hr>
