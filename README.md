@@ -29,15 +29,19 @@ Markdown parsing is done with [Markdown-It](https://github.com/markdown-it/markd
 
 ## QUESTIONS:
 
-If you have any questions,
-
-you can find my GitHub here: https://github.com/Lawhornmatt
-
+If you have any questions,  
+you can find my GitHub here: https://github.com/Lawhornmatt  
 or email me here: fake@notreal.com
 
 ## CREDIT:
 
 This project was made in 2024 by Matty Lawhorn
+in collaboration with Jena Heroman & Sai 
+
+## SPECIAL THANKS:
+
+Big thank you to [this](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog) blog
+by John Collins Worth which really helped me understand how to dynamically load markdown files in SvelteKit
 
 ## LICENSE:
 
