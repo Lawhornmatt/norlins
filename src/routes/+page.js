@@ -6,7 +6,7 @@ let metadata;
 const mdfm = markdownit().use(markdownItFrontMatter, (fm) => { metadata = JSON.parse(fm) });
 
 export async function load({ params }) { 
-    const storycard = await import(/* @vite-ignore */`${base}/content/${params.slug}.md?raw`);
+    const storycard = await import(/* @vite-ignore */`${base}/content/A1.md?raw`);
 
     const content = mdfm.render(storycard.default);
     const { title, buttons, drink } = metadata;
