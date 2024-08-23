@@ -20,7 +20,7 @@ This is the ReadMe for Matty Lawhorn's project titled: NORLINS aka the Spooky Ch
 
 Made a quick visual representation of Sai's spooky chose your own adventure
 
-<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of spooky_choose_yourown'/>
+<img src='./static/screenshot_norlins.jpg' alt='A screenshot of spooky_choose_yourown'/>
 
 ## TOOLS:
 
