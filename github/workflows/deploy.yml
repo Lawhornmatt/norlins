@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 
-on:  push:    branches: 'Pages'
+on:  push:    branches: 'main'
 
 jobs:  build_site:    runs-on: ubuntu-latest    steps:      - name: Checkout        uses: actions/checkout@v4
       - name: Install Node.js        uses: actions/setup-node@v4        with:          node-version: 20          cache: pnpm
