@@ -20,7 +20,7 @@ This is the ReadMe for Matty Lawhorn's project titled: NORLINS aka the Spooky Ch
 
 Made a quick visual representation of Sai's spooky chose your own adventure
 
-<img src='INSERT PATH TO SCREENSHOT HERE' alt='A screenshot of spooky_choose_yourown'/>
+<img src='./static/screenshot_norlins.jpg' alt='A screenshot of spooky_choose_yourown'/>
 
 ## TOOLS:
 
@@ -35,11 +35,7 @@ or email me here: fake@notreal.com
 
 ## CREDIT:
 
-This project was made in 2024 by Matty Lawhorn
-in collaboration with Jena Heroman & Sai 
-
-## SPECIAL THANKS:
-
+This project was made in 2024 by Matty Lawhorn in collaboration with Jena Heroman & Sai  
 Big thank you to [this](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog) blog
 by John Collins Worth which really helped me understand how to dynamically load markdown files in SvelteKit
 
@@ -56,4 +52,3 @@ Copyright 2024 Matty Lawhorn
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [Further license information can be found here.](https://opensource.org/licenses/MIT)
-
