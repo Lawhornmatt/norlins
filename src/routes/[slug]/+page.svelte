@@ -1,7 +1,5 @@
 <script>
-	import { drunkness } from '$lib/drunkness';
-	import { boozelist } from '$lib/boozelist';
-	import { drinkstate } from '$lib/drinkstate';
+	import { drunkness, boozelist, drinkstate } from '$lib/drink_mechanics';
 	import { afterNavigate } from '$app/navigation';
 	export let data;
 

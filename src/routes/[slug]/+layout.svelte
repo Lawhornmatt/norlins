@@ -1,5 +1,1 @@
-<script>
-
-</script>
-
 <slot></slot>
