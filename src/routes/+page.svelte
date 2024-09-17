@@ -1,11 +1,4 @@
 <script>
-	let drunklevel = 0;
-
-	let boozemoji = '🥃';
-	let cocktailmoji = '🍹';
-	let winemoji = '🍷';
-	let beermoji = '🍺'; // ☕ 🍸
-
 	import markdownit from 'markdown-it';
 	const md = markdownit();
 	import storytext from '../../content/A1_Intro.md?raw';
