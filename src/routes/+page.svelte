@@ -2,6 +2,13 @@
 	import markdownit from 'markdown-it';
 	const md = markdownit();
 	import storytext from '../../content/A1_Intro.md?raw';
+
+	import { drunkness } from '$lib/drunkness';
+	import { boozelist } from '$lib/boozelist';
+	import { drinkstate } from '$lib/drinkstate';
+	$drunkness = 0;
+	$boozelist = '';
+	$drinkstate = false;
 </script>
 
 <div class="card flex flex-col justify-around p-4 w-full h-96 lg:h-full mb-5 lg:m-3">
