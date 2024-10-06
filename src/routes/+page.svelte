@@ -3,6 +3,7 @@
 	const md = markdownit();
 	import storytext from '../../content/A1_Intro.md?raw';
 
+	// Reset all game values entering this page, e.g. when starting over
 	import { reset_state } from '$lib/drink_mechanics';
 	reset_state();
 </script>
@@ -18,9 +19,8 @@
 		</article>
 	</section>
 	<hr>
-	<div class="w-full flex justify-center">
+	<nav class="w-full flex justify-center">
 		<a class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" href="/B1" data-sveltekit-preload-data="false">Lets Begin</a>
-	</div>
+	</nav>
 </div>
 
-<!-- <button class="btn btn-primary" on:click={debugPageStore}>See page</button> -->
