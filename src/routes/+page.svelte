@@ -7,7 +7,7 @@
 	reset_state();
 </script>
 
-<div class="card flex flex-col justify-around p-4 w-full h-96 lg:h-full mb-5 lg:m-3">
+<div class="card variant-ghost-surface flex flex-col justify-around p-4 w-full h-96 lg:h-full mb-5 lg:m-3">
 	<header class="text-2xl card-header font-semibold mb-2">
 		The Story Begins
 	</header>

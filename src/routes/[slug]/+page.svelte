@@ -19,32 +19,51 @@
 	};
 </script>
 
-<main class="card p-4 w-3/4 h-full mb-5 lg:m-3">
-	<header class="text-2xl card-header font-semibold mb-2">
-		{data.title}
-	</header>
-	<hr>
-	<section class="p-4 flex justify-center">
-		<article class="w-full h-32 mb-4">
-			{@html data.content}
-		</article>
-	</section>
-	<hr>
+{#if (data.buttons[0] === "./")}
+	<main class="card variant-ghost-warning p-4 w-3/4 h-full mb-5 lg:m-3">
+		<header class="text-2xl card-header font-extrabold mb-2">
+			{data.title}
+		</header>
+		<hr>
+		<section class="p-4 flex justify-center">
+			<article class="w-full h-32 mb-4">
+				{@html data.content}
+			</article>
+		</section>
+		<hr>
 
-	<div class="w-full flex justify-center space-x-8">
-		{#if ($drinkstate)}
-			{#each data.buttons as button, i}
-				<div class="btn variant-filled-warning rounded-xl min-w-[25%] my-5" data-sveltekit-preload-data="false">Drink up first!</div>
-			{/each}
-		{:else}
-			{#each data.buttons as button, i}
-				<a class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" href="/{button}" data-sveltekit-preload-data="false">Option {i}</a>
-			{/each}
-		{/if}
-	</div>
-</main>
+		<div class="w-full flex justify-center space-x-8">
+			<a class="btn variant-filled-secondary rounded-xl min-w-[25%] my-5" href="/{data.buttons[0]}" data-sveltekit-preload-data="false">Start Over</a>
+		</div>
+	</main>
+{:else}
+	<main class="card variant-ghost-surface p-4 w-3/4 h-full mb-5 lg:m-3">
+		<header class="text-2xl card-header font-semibold mb-2">
+			{data.title}
+		</header>
+		<hr>
+		<section class="p-4 flex justify-center">
+			<article class="w-full h-32 mb-4">
+				{@html data.content}
+			</article>
+		</section>
+		<hr>
 
-<aside class="card flex flex-col p-4 w-1/4 h-full mb-5 lg:m-3">
+		<div class="w-full flex justify-center space-x-8">
+			{#if ($drinkstate)}
+				{#each data.buttons as button, i}
+					<div class="btn variant-filled-warning rounded-xl min-w-[25%] my-5" data-sveltekit-preload-data="false">Drink up first!</div>
+				{/each}
+			{:else}
+				{#each data.buttons as button, i}
+					<a class="btn variant-filled-primary rounded-xl min-w-[25%] my-5" href="/{button}" data-sveltekit-preload-data="false">Option {i}</a>
+				{/each}
+			{/if}
+		</div>
+	</main>
+{/if}
+
+<aside class="card variant-ghost-tertiary flex flex-col p-4 w-1/4 h-full mb-5 lg:m-3">
 	<header class="text-2xl card-header font-semibold my-2 text-center">
 		Drunk Level
 		<p class="mt-1 mb-2 text-xs font-extralight">(this would be hidden but is here for dev)</p>
