@@ -8,13 +8,13 @@
 	reset_state();
 </script>
 
-<div class="card variant-ghost-surface flex flex-col justify-around p-4 w-full h-96 lg:h-full mb-5 lg:m-3">
+<div class="card variant-ghost-surface flex flex-col grow justify-around p-4 w-full h-full lg:m-3">
 	<header class="text-2xl card-header font-semibold mb-2">
 		The Story Begins
 	</header>
 	<hr>
 	<section class="p-4">
-		<article class="w-full h-32 mb-4">
+		<article class="mb-4">
 			{@html md.render(storytext)}
 		</article>
 	</section>
